@@ -6,4 +6,10 @@ public class Rumus {
     //Kelas : 4D REGULER BJB
     int sisi, panjang, lebar, hasil;
     
+    public void hitungLuasPersegi() {
+        hasil = sisi * sisi;
+    }
+    public void hitungLuasPersegiPanjang() {
+        hasil = panjang * lebar;
+    }
 }
